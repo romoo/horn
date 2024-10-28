@@ -47,7 +47,7 @@ const Page = () => {
       <div className="grid w-full gap-2 mb-3">
         <Textarea
           value={message}
-          placeholder="输入需要转换的语音"
+          placeholder="输入需要转换语音的文字"
           onChange={(e) => setMessage(e.target.value)}
         />
         {/*
